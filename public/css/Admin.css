@@ -1,0 +1,76 @@
+.AddListing {
+    height: auto;
+    width: auto;
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+  
+  
+  .AddListing-form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    margin-top: 130px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #333;
+  }
+  
+  .AddListing-form h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  
+  #submitButton{
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #E28904;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #E28904;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+
+  #submitButton:hover {
+    background-color: #E28904;
+    filter: brightness(85%);
+  }
+
+  
+  @media screen and (min-width: 480px) {
+  
+    .AddListing-form  {
+      max-width: 600px;
+    }
+  
+  }
+
+
+.form-control {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+button.remove-sub-category {
+    
+    background-color: #100303 ;
+    width: 10%;
+    height: 1%;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.remove-sub-category:hover {
+    background-color: #ff1a1a;
+}
+  
